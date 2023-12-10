@@ -7,6 +7,7 @@ import axios from 'axios';
 // Components
 import Spinner from 'react-bootstrap/Spinner';
 import Navigation from './components/Navigation';
+import Content from './components/Content';
 
 // ABIs
 import NFT from './abis/NFT.json'
@@ -126,11 +127,12 @@ function App() {
   return (
     <div>
       <Navigation account={account} setAccount={setAccount} />
+      <Content/>
 
       <div className='form'>
         <form onSubmit={submitHandler}>
-          <input type="text" placeholder="Create a name..." onChange={(e) => { setName(e.target.value) }} />
-          <input type="text" placeholder="Create a description..." onChange={(e) => setDescription(e.target.value)} />
+          <input type="text" className='iff' placeholder="Create a name..." onChange={(e) => { setName(e.target.value) }} />
+          <input type="text" className='iff' placeholder="Create a description..." onChange={(e) => setDescription(e.target.value)} />
           <input type="submit" value="Create & Mint" />
         </form>
 
