@@ -64,7 +64,7 @@ function App() {
     setMessage("Generating Image...")
 
     // You can replace this with different model API's
-    const URL = `https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2`
+    const URL = `https://api-inference.huggingface.co/models/playgroundai/playground-v2-1024px-aesthetic`
 
     // Send the request
     const response = await axios({
