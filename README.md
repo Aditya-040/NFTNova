@@ -1,6 +1,9 @@
+
+![image](https://github.com/user-attachments/assets/45bf04a1-3586-4926-bbf3-7c42d2567fab)
+
 ### 1. Install Dependencies:
 `$ npm install`
-![image](https://github.com/user-attachments/assets/45bf04a1-3586-4926-bbf3-7c42d2567fab)
+
 
 ### 2. Setup .env file:
 Before running any scripts, you'll want to create a .env file .
